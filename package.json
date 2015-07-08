@@ -1,6 +1,6 @@
 {
   "name": "romaindr-stylus-utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "stylus utilities",
   "main": "index.styl",
   "scripts": {
