@@ -1,0 +1,19 @@
+{
+  "name": "romaindr-stylus-utils",
+  "version": "1.0.3",
+  "description": "stylus utilities",
+  "main": "index.styl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylus"
+  ],
+  "author": {
+    "name": "Romain Avalle",
+    "email": "romain.avalle@gmail.com",
+    "url": "http://www.romainavalle.com/"
+  },
+  "license": "MIT",
+  "readme": "README.md"
+}

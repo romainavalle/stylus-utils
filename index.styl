@@ -1,0 +1,12 @@
+align(type,pos = absolute)
+  position pos
+  if type == 'h'
+    left 50%
+    transform translateX(-50%)
+  if type == 'v'
+    top 50%
+    transform translateY(-50%)
+  if type == 'all'
+    left 50%
+    top 50%
+    transform translate(-50%,-50%)
