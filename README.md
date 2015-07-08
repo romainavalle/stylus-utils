@@ -7,7 +7,7 @@ Utilities for stylus
 With [npm](http://npmjs.org) do:
 
 ```bash
-$ npm install romaindr-stylus-utils --save-dev
+$ npm install romaindr-stylus-utils --save
 ```
 
 ## Usage
