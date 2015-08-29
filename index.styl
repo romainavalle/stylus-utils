@@ -62,12 +62,15 @@ triangle(width = 10px, height = 10px, direction = 'bottom', color = #000)
   
   
 //from @Lukavyi https://github.com/Lukavyi/stylus-input-placeholder-mixin
+//Add claass .placeholder for <= IE9
 placeholder()
-    &::-webkit-input-placeholder
-        {block}
-    &:-moz-placeholder
-        {block}
-    &::-moz-placeholder
-        {block}
-    &:-ms-input-placeholder
-        {block}
+  &.placeholder 
+    {block}
+  &::-webkit-input-placeholder
+      {block}
+  &:-moz-placeholder
+      {block}
+  &::-moz-placeholder
+      {block}
+  &:-ms-input-placeholder
+      {block}
